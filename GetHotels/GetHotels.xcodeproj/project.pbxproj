@@ -32,7 +32,6 @@
 		8488E1CC1F4E6F49003D8DD5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488E1CB1F4E6F49003D8DD5 /* CoreMotion.framework */; };
 		8488E1CE1F4E6F53003D8DD5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488E1CD1F4E6F53003D8DD5 /* CoreTelephony.framework */; };
 		8488E1D21F4E75DB003D8DD5 /* Openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488E1D11F4E75DB003D8DD5 /* Openssl.framework */; };
-		8488E1D41F4E7659003D8DD5 /* Hotels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488E1D31F4E7659003D8DD5 /* Hotels.storyboard */; };
 		8488E1D81F4E7735003D8DD5 /* HotelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1D71F4E7735003D8DD5 /* HotelsViewController.m */; };
 		8488E1DB1F4E7742003D8DD5 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1DA1F4E7742003D8DD5 /* MyViewController.m */; };
 		8488E1DD1F4E779C003D8DD5 /* HotelsDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488E1DC1F4E779C003D8DD5 /* HotelsDetail.storyboard */; };
@@ -40,6 +39,10 @@
 		8488E1E31F4E77F6003D8DD5 /* MyHotels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488E1E21F4E77F6003D8DD5 /* MyHotels.storyboard */; };
 		8488E1E71F4E7824003D8DD5 /* MyHotelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1E61F4E7824003D8DD5 /* MyHotelsViewController.m */; };
 		8488E1EA1F4E7856003D8DD5 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1E91F4E7856003D8DD5 /* PayViewController.m */; };
+		8488E1EE1F4E7B4A003D8DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488E1ED1F4E7B4A003D8DD5 /* Main.storyboard */; };
+		8488E1F01F4E7C86003D8DD5 /* Sign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488E1EF1F4E7C86003D8DD5 /* Sign.storyboard */; };
+		8488E1F71F4E7CC0003D8DD5 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1F61F4E7CC0003D8DD5 /* SignUpViewController.m */; };
+		8488E1FA1F4E7CD5003D8DD5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1F91F4E7CD5003D8DD5 /* SignInViewController.m */; };
 		C976FF6CDBAF6F184F4D9D9B /* libPods-GetHotels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1252F9E5171EFCC22067C7 /* libPods-GetHotels.a */; };
 /* End PBXBuildFile section */
 
@@ -111,7 +114,6 @@
 		8488E1CF1F4E6F90003D8DD5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8488E1D01F4E73DC003D8DD5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8488E1D11F4E75DB003D8DD5 /* Openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Openssl.framework; path = GetHotels/Openssl.framework; sourceTree = "<group>"; };
-		8488E1D31F4E7659003D8DD5 /* Hotels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hotels.storyboard; sourceTree = "<group>"; };
 		8488E1D61F4E7735003D8DD5 /* HotelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsViewController.h; sourceTree = "<group>"; };
 		8488E1D71F4E7735003D8DD5 /* HotelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsViewController.m; sourceTree = "<group>"; };
 		8488E1D91F4E7742003D8DD5 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -124,6 +126,12 @@
 		8488E1E61F4E7824003D8DD5 /* MyHotelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHotelsViewController.m; sourceTree = "<group>"; };
 		8488E1E81F4E7856003D8DD5 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
 		8488E1E91F4E7856003D8DD5 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		8488E1ED1F4E7B4A003D8DD5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8488E1EF1F4E7C86003D8DD5 /* Sign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sign.storyboard; sourceTree = "<group>"; };
+		8488E1F51F4E7CC0003D8DD5 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		8488E1F61F4E7CC0003D8DD5 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		8488E1F81F4E7CD5003D8DD5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		8488E1F91F4E7CD5003D8DD5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		A5F7715B504DF52D9EA8025E /* Pods-GetHotels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHotels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetHotels/Pods-GetHotels.debug.xcconfig"; sourceTree = "<group>"; };
 		BA1252F9E5171EFCC22067C7 /* libPods-GetHotels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GetHotels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -290,6 +298,7 @@
 		8488E1C11F4E6DD2003D8DD5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8488E1F11F4E7C9B003D8DD5 /* sign */,
 				8488E1E41F4E7804003D8DD5 /* MyHotels */,
 				8488E1DE1F4E77AF003D8DD5 /* HotelsDetail */,
 				8488E1D51F4E76F7003D8DD5 /* Home */,
@@ -300,7 +309,6 @@
 		8488E1C21F4E6E0F003D8DD5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8488E1D31F4E7659003D8DD5 /* Hotels.storyboard */,
 				8488E1DC1F4E779C003D8DD5 /* HotelsDetail.storyboard */,
 				8488E1E21F4E77F6003D8DD5 /* MyHotels.storyboard */,
 				8488E16A1F4E6CB8003D8DD5 /* Assets.xcassets */,
@@ -309,6 +317,8 @@
 				8488E15E1F4E6CB8003D8DD5 /* AppDelegate.h */,
 				8488E15F1F4E6CB8003D8DD5 /* AppDelegate.m */,
 				8488E1CF1F4E6F90003D8DD5 /* PrefixHeader.pch */,
+				8488E1ED1F4E7B4A003D8DD5 /* Main.storyboard */,
+				8488E1EF1F4E7C86003D8DD5 /* Sign.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -370,6 +380,17 @@
 				8488E1E61F4E7824003D8DD5 /* MyHotelsViewController.m */,
 			);
 			name = MyHotels;
+			sourceTree = "<group>";
+		};
+		8488E1F11F4E7C9B003D8DD5 /* sign */ = {
+			isa = PBXGroup;
+			children = (
+				8488E1F51F4E7CC0003D8DD5 /* SignUpViewController.h */,
+				8488E1F61F4E7CC0003D8DD5 /* SignUpViewController.m */,
+				8488E1F81F4E7CD5003D8DD5 /* SignInViewController.h */,
+				8488E1F91F4E7CD5003D8DD5 /* SignInViewController.m */,
+			);
+			name = sign;
 			sourceTree = "<group>";
 		};
 		BEB0A1131D37C7FB886DE2B8 /* Pods */ = {
@@ -491,10 +512,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8488E1DD1F4E779C003D8DD5 /* HotelsDetail.storyboard in Resources */,
+				8488E1F01F4E7C86003D8DD5 /* Sign.storyboard in Resources */,
 				8488E16E1F4E6CB8003D8DD5 /* LaunchScreen.storyboard in Resources */,
 				8488E1E31F4E77F6003D8DD5 /* MyHotels.storyboard in Resources */,
+				8488E1EE1F4E7B4A003D8DD5 /* Main.storyboard in Resources */,
 				8488E16B1F4E6CB8003D8DD5 /* Assets.xcassets in Resources */,
-				8488E1D41F4E7659003D8DD5 /* Hotels.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,8 +602,10 @@
 				8488E1601F4E6CB8003D8DD5 /* AppDelegate.m in Sources */,
 				8488E1BD1F4E6DBF003D8DD5 /* RequestAPI.m in Sources */,
 				8488E1BF1F4E6DBF003D8DD5 /* Utilities.m in Sources */,
+				8488E1F71F4E7CC0003D8DD5 /* SignUpViewController.m in Sources */,
 				8488E1E71F4E7824003D8DD5 /* MyHotelsViewController.m in Sources */,
 				8488E1A01F4E6DB3003D8DD5 /* BasicEncodingRules.m in Sources */,
+				8488E1FA1F4E7CD5003D8DD5 /* SignInViewController.m in Sources */,
 				8488E15D1F4E6CB8003D8DD5 /* main.m in Sources */,
 				8488E1A31F4E6DB3003D8DD5 /* SKTagView.m in Sources */,
 				8488E1E11F4E77CF003D8DD5 /* HotelsDetailViewController.m in Sources */,
