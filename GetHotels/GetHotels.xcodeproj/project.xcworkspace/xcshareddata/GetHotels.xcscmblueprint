@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A45ED1C60DEE71F3076621D3D53AD65C2B9B100D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A45ED1C60DEE71F3076621D3D53AD65C2B9B100D" : 9223372036854775807,
+    "4B6698A578EC0479AE8D012E499273BDD60FEC1F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "648F901B-CBCD-4CE8-9115-2AE2BDBDCAE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A45ED1C60DEE71F3076621D3D53AD65C2B9B100D" : "GetHotels\/",
+    "4B6698A578EC0479AE8D012E499273BDD60FEC1F" : "dongbaTua\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GetHotels",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GetHotels\/GetHotels.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HANlei1996\/ideaTua.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B6698A578EC0479AE8D012E499273BDD60FEC1F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HANlei1996\/ideaGet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A45ED1C60DEE71F3076621D3D53AD65C2B9B100D"
+    }
+  ]
+}
