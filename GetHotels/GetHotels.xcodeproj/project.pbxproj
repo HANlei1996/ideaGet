@@ -385,10 +385,10 @@
 		8488E1F11F4E7C9B003D8DD5 /* sign */ = {
 			isa = PBXGroup;
 			children = (
-				8488E1F51F4E7CC0003D8DD5 /* SignUpViewController.h */,
-				8488E1F61F4E7CC0003D8DD5 /* SignUpViewController.m */,
 				8488E1F81F4E7CD5003D8DD5 /* SignInViewController.h */,
 				8488E1F91F4E7CD5003D8DD5 /* SignInViewController.m */,
+				8488E1F51F4E7CC0003D8DD5 /* SignUpViewController.h */,
+				8488E1F61F4E7CC0003D8DD5 /* SignUpViewController.m */,
 			);
 			name = sign;
 			sourceTree = "<group>";
