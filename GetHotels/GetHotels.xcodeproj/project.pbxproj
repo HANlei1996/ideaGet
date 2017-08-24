@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84130F461F4E9E2B00140F50 /* hangkongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F451F4E9E2B00140F50 /* hangkongViewController.m */; };
+		84130F4A1F4EA4FF00140F50 /* myViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F491F4EA4FF00140F50 /* myViewTableViewCell.m */; };
+		84130F4E1F4EBC7A00140F50 /* myhkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F4D1F4EBC7A00140F50 /* myhkViewController.m */; };
+		84130F511F4EBC9C00140F50 /* myxxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F501F4EBC9C00140F50 /* myxxViewController.m */; };
+		84130F541F4EBCB300140F50 /* syxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F531F4EBCB300140F50 /* syxyViewController.m */; };
+		84130F571F4EBCD700140F50 /* lxkfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84130F561F4EBCD700140F50 /* lxkfViewController.m */; };
 		8488E15D1F4E6CB8003D8DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E15C1F4E6CB8003D8DD5 /* main.m */; };
 		8488E1601F4E6CB8003D8DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488E15F1F4E6CB8003D8DD5 /* AppDelegate.m */; };
 		8488E1691F4E6CB8003D8DD5 /* GetHotels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8488E1671F4E6CB8003D8DD5 /* GetHotels.xcdatamodeld */; };
@@ -65,6 +71,18 @@
 
 /* Begin PBXFileReference section */
 		2A6A8122EC83B40A9A5495EE /* Pods-GetHotels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHotels.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetHotels/Pods-GetHotels.release.xcconfig"; sourceTree = "<group>"; };
+		84130F441F4E9E2B00140F50 /* hangkongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hangkongViewController.h; sourceTree = "<group>"; };
+		84130F451F4E9E2B00140F50 /* hangkongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hangkongViewController.m; sourceTree = "<group>"; };
+		84130F481F4EA4FF00140F50 /* myViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewTableViewCell.h; sourceTree = "<group>"; };
+		84130F491F4EA4FF00140F50 /* myViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewTableViewCell.m; sourceTree = "<group>"; };
+		84130F4C1F4EBC7A00140F50 /* myhkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myhkViewController.h; sourceTree = "<group>"; };
+		84130F4D1F4EBC7A00140F50 /* myhkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myhkViewController.m; sourceTree = "<group>"; };
+		84130F4F1F4EBC9C00140F50 /* myxxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myxxViewController.h; sourceTree = "<group>"; };
+		84130F501F4EBC9C00140F50 /* myxxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myxxViewController.m; sourceTree = "<group>"; };
+		84130F521F4EBCB300140F50 /* syxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syxyViewController.h; sourceTree = "<group>"; };
+		84130F531F4EBCB300140F50 /* syxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = syxyViewController.m; sourceTree = "<group>"; };
+		84130F551F4EBCD700140F50 /* lxkfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lxkfViewController.h; sourceTree = "<group>"; };
+		84130F561F4EBCD700140F50 /* lxkfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lxkfViewController.m; sourceTree = "<group>"; };
 		8488E1581F4E6CB8003D8DD5 /* GetHotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetHotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8488E15C1F4E6CB8003D8DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8488E15E1F4E6CB8003D8DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +184,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84130F471F4EA4D700140F50 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				84130F481F4EA4FF00140F50 /* myViewTableViewCell.h */,
+				84130F491F4EA4FF00140F50 /* myViewTableViewCell.m */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
+		84130F4B1F4EAB6900140F50 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				84130F441F4E9E2B00140F50 /* hangkongViewController.h */,
+				84130F451F4E9E2B00140F50 /* hangkongViewController.m */,
+				8488E1D91F4E7742003D8DD5 /* MyViewController.h */,
+				8488E1DA1F4E7742003D8DD5 /* MyViewController.m */,
+				84130F4C1F4EBC7A00140F50 /* myhkViewController.h */,
+				84130F4D1F4EBC7A00140F50 /* myhkViewController.m */,
+				84130F4F1F4EBC9C00140F50 /* myxxViewController.h */,
+				84130F501F4EBC9C00140F50 /* myxxViewController.m */,
+				84130F521F4EBCB300140F50 /* syxyViewController.h */,
+				84130F531F4EBCB300140F50 /* syxyViewController.m */,
+				84130F551F4EBCD700140F50 /* lxkfViewController.h */,
+				84130F561F4EBCD700140F50 /* lxkfViewController.m */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
 		8488E14F1F4E6CB8003D8DD5 = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +344,7 @@
 		8488E1C11F4E6DD2003D8DD5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				84130F4B1F4EAB6900140F50 /* My */,
 				8488E1F11F4E7C9B003D8DD5 /* sign */,
 				8488E1E41F4E7804003D8DD5 /* MyHotels */,
 				8488E1DE1F4E77AF003D8DD5 /* HotelsDetail */,
@@ -309,6 +356,7 @@
 		8488E1C21F4E6E0F003D8DD5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84130F471F4EA4D700140F50 /* My */,
 				8488E1DC1F4E779C003D8DD5 /* HotelsDetail.storyboard */,
 				8488E1E21F4E77F6003D8DD5 /* MyHotels.storyboard */,
 				8488E16A1F4E6CB8003D8DD5 /* Assets.xcassets */,
@@ -356,8 +404,6 @@
 			children = (
 				8488E1D61F4E7735003D8DD5 /* HotelsViewController.h */,
 				8488E1D71F4E7735003D8DD5 /* HotelsViewController.m */,
-				8488E1D91F4E7742003D8DD5 /* MyViewController.h */,
-				8488E1DA1F4E7742003D8DD5 /* MyViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -592,6 +638,7 @@
 				8488E1BA1F4E6DBF003D8DD5 /* NSDate+Utility.m in Sources */,
 				8488E1B71F4E6DBF003D8DD5 /* AppAPIClient.m in Sources */,
 				8488E1BB1F4E6DBF003D8DD5 /* NSDateFormatter+Category.m in Sources */,
+				84130F541F4EBCB300140F50 /* syxyViewController.m in Sources */,
 				8488E1D81F4E7735003D8DD5 /* HotelsViewController.m in Sources */,
 				8488E1BC1F4E6DBF003D8DD5 /* NSString+Crypt.m in Sources */,
 				8488E1B81F4E6DBF003D8DD5 /* ErrorHandler.m in Sources */,
@@ -599,9 +646,14 @@
 				8488E1691F4E6CB8003D8DD5 /* GetHotels.xcdatamodeld in Sources */,
 				8488E1A11F4E6DB3003D8DD5 /* SKTag.m in Sources */,
 				8488E1B91F4E6DBF003D8DD5 /* NSData+Base64.m in Sources */,
+				84130F571F4EBCD700140F50 /* lxkfViewController.m in Sources */,
+				84130F461F4E9E2B00140F50 /* hangkongViewController.m in Sources */,
 				8488E1601F4E6CB8003D8DD5 /* AppDelegate.m in Sources */,
 				8488E1BD1F4E6DBF003D8DD5 /* RequestAPI.m in Sources */,
+				84130F4E1F4EBC7A00140F50 /* myhkViewController.m in Sources */,
 				8488E1BF1F4E6DBF003D8DD5 /* Utilities.m in Sources */,
+				84130F4A1F4EA4FF00140F50 /* myViewTableViewCell.m in Sources */,
+				84130F511F4EBC9C00140F50 /* myxxViewController.m in Sources */,
 				8488E1F71F4E7CC0003D8DD5 /* SignUpViewController.m in Sources */,
 				8488E1E71F4E7824003D8DD5 /* MyHotelsViewController.m in Sources */,
 				8488E1A01F4E6DB3003D8DD5 /* BasicEncodingRules.m in Sources */,
